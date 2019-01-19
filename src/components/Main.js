@@ -5,6 +5,8 @@ import Col from 'react-bootstrap/lib/Col';
 
 import styled from 'styled-components';
 
+import Slider from './Slider';
+
 const Repair = styled.div`
     color: #ffffff;
     line-height: 50px;
@@ -54,7 +56,7 @@ class Main extends Component {
                     <CallBtn>Отправить заявку!</CallBtn>
                 </Col>
                 <Col lg={6} lgOffset={1}>
-                    
+                    <Slider />
                 </Col>
             </Row>
         );
